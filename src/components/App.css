@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rozha+One&display=swap");
+
+.timerContainer {
+  font-family: "Rozha One";
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerItem {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 73px;
+  text-align: center;
+  color: white;
+  margin: 8px;
+  background-color: black;
+}
+
+.timerUnitContainer {
+  font-family: "Rozha One";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 12px;
+}
+
+.digitsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerItemTitle {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
+.logoItemOne {
+  padding: 0 13px;
+  text-transform: uppercase;
+  width: 104px;
+  line-height: 40px;
+  font-size: 36px;
+  position: absolute;
+  top: 4%;
+  right: 70px;
+  font-family: "Rozha One";
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.logoItemTwo {
+  padding: 0 13px;
+  text-transform: uppercase;
+  width: 104px;
+  line-height: 40px;
+  font-size: 36px;
+  position: absolute;
+  top: 10%;
+  right: 30px;
+  font-family: "Rozha One";
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 400px) {
+  .timerItem {
+    font-size: 24px;
+    width: 22px;
+    height: 8px;
+    padding: 12px 8px;
+    margin: 2px;
+  }
+
+  .timerUnitContainer {
+    margin: 0 3px;
+  }
+
+  .timerItemTitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .logoItemOne {
+    right: 50px;
+  }
+  .logoItemTwo {
+    top: 13%;
+  }
+}
